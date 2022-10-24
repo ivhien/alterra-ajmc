@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM eclipse-temurin:17-jre-alpine
 ARG JAR_FILE=target/*.jar
 WORKDIR /opt
 ENV PORT 9090
